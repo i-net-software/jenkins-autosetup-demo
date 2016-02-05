@@ -10,7 +10,7 @@ To run the configuration from this repository use:
 
 		docker run -dp 8080:8080 -e AUTOSETUP="https://github.com/i-net-software/jenkins-autosetup-demo.git" inetsoftware/jenkins-autosetup
 		
-`AUTOSETUP` can take a spaces separated list of svn and git repositories and uses the `plugins.txt` as well as `.groovy` and `.xml` files from the config folder.
+`AUTOSETUP` can take a spaces separated list of svn and git repositories and uses the `plugins.txt` ([see](https://github.com/jenkinsci/docker#installing-more-tools)) as well as `.groovy` and `.xml` files from the config folder.
 
 This setup uses the approach of [fabric8io/jenkins-docker](https://github.com/fabric8io/jenkins-docker) to also patch the environment variables set in the `*.xml` configuration files.
 

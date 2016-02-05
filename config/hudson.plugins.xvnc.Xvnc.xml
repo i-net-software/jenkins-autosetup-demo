@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.xvnc.Xvnc_-DescriptorImpl plugin="xvnc@1.23">
+  <xvnc>vncserver -geometry 1200x800 :$DISPLAY_NUMBER -nolisten tcp</xvnc>
+  <minDisplayNumber>10</minDisplayNumber>
+  <maxDisplayNumber>99</maxDisplayNumber>
+  <skipOnWindows>true</skipOnWindows>
+  <cleanUp>true</cleanUp>
+  <allocators/>
+</hudson.plugins.xvnc.Xvnc_-DescriptorImpl>
